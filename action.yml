@@ -1,0 +1,39 @@
+name: 'Release Notes Drafter'
+description: 'Automatically generate release notes from commit history'
+author: 'Gaoruan Tech'
+branding:
+  icon: 'tag'
+  color: 'blue'
+inputs:
+  token:
+    description: 'GitHub token with repo access'
+    required: false
+    default: ${{ github.token }}
+  base-ref:
+    description: 'Base branch to compare from (e.g., main)'
+    required: false
+    default: ''
+  head-ref:
+    description: 'Head branch to compare to (defaults to current branch)'
+    required: false
+    default: ''
+  template:
+    description: 'Custom template for release notes (use {{changes}} for the changes section)'
+    required: false
+    default: ''
+  include-unlabelled:
+    description: 'Include commits without conventional commit labels'
+    required: false
+    default: 'true'
+outputs:
+  release_notes:
+    description: 'Generated release notes in Markdown'
+  changed_features:
+    description: 'Number of features changed'
+  changed_fixes:
+    description: 'Number of bug fixes'
+  changed_docs:
+    description: 'Number of documentation changes'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
