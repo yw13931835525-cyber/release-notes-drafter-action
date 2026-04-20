@@ -1,6 +1,6 @@
 name: 'Release Notes Drafter'
 description: 'Automatically generate release notes from commit history'
-author: 'Gaoruan Tech'
+author: 'yw13931835525-cyber'
 branding:
   icon: 'tag'
   color: 'blue'
