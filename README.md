@@ -132,3 +132,22 @@ MIT License - Free for personal and commercial use
 ## Contributing
 
 Contributions welcome! Please read our Contributing Guidelines.
+---
+
+## ⭐ Pro 版本
+
+**Release Notes Drafter Pro** — 9/yr
+
+| 功能 | Free | Pro |
+|------|------|-----|
+| 基础功能 | ✅ | ✅ |
+| 使用限制 | 有限 | **无限** |
+| 优先支持 | ❌ | ✅ |
+
+**立即升级** → 发送邮件到 **hello@gao-soft.com**，24h 内收到 License Key
+
+支持的加密货币：
+- **EVM:** `0x6FCBd5d14FB296933A4f5a515933B153bA24370E`
+- **BTC:** `bc1pfvewxym02a4hwupn9f0d0x7h26uuf2jhjkcz3ysd9ef6acjttrmqwex66h`
+
+**公司**: 河北高软科技有限公司 · hello@gao-soft.com · https://hbhsgr.com
